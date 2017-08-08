@@ -10,11 +10,41 @@ From [interview cake](https://www.interviewcake.com/article/java/big-o-notation-
 
 A Formal definition can be found [here](https://en.wikipedia.org/wiki/Big_O_notation#Formal_definition).  (This is very math-y)
 
-### Examples
+## Examples
 
-#### Find the largest element in a list
+### Matching key-val
 
-Algorithm 1:
+Given an object `obj`, a key `key`, and a value `val`, check to see if there is a key in `obj` with value `val`.
+
+#### Algorithm 1:
+```
+func check_pair(obj, key, val):
+  return obj.has_key?(key) && obj[key] == val
+```
+
+No matter how large our `obj` is, it takes the same amount of time to check to see if it has a key and check that 2 values match.  (We accept this as given.)  Therefore, this is algorithm runs in `constant time`.  In Big-O notation this is `O(1)`.
+
+#### Algorithm 2:
+
+```
+func check_pair(obj, key, val):
+  for_each_key k in obj:
+    if(k == key && obj[k] == val):
+      return true
+  return false
+```
+
+Here we have to loop over each key in `obj`.  Inside of the loop we just do a quick operation (that we will accept as constant time).  If there are 5 pairs, we will have to iterate 5 times.  If there are 6, then 6.  If 7, then 7...
+
+We call this `linear` or `O(n)` (where `n` is the size of our object).  With an object of size `n` we will have about `n` operations.
+
+> So which algorithm is "better"?  Which has a smaller run-time?
+
+### Find the largest element in a list
+
+Create a function `largest_element` that take an array `arr` and returns the largest element.
+
+#### Algorithm 1:
 ```
 func largest_element(arr):
   for_each_element x in arr:
@@ -28,7 +58,21 @@ func is_largest?(x, arr):
   return true
 ```
 
-Algorithm 2:
+First let's figure out the run-time of `is_largest?`.  Assume our `arr` has length 5.  Then in the worst case we will have to iterate over 5 elements.  If there are 6, then 6...
+
+We saw this pattern above.  This is `linear` or `O(n)`.  (Where `n` is the length of `arr`).
+
+Now let's figure out the run-time of `largest_element`.  Again, assume our `arr` has length 5.  Then in the worst case we will have to iterate over 5 elements.  For each of those, we have to check `is_largest?(x, arr)`.  As shown above, this has a run-time of `O(n)`.  This means we will have to do 5 operations for every 5 elements in `arr`.
+
+If `arr` is of length **5**, we will have to do **5 * 5 = 5² = 25** operations.
+
+If `arr` is of length **6**, we will have to do **6 * 6 = 6² = 36** operations.
+
+If `arr` is of length **7**, we will have to do **7 * 7 = 7² = 49** operations.
+
+We call this `O(n²)`.
+
+#### Algorithm 2:
 ```
 func largest_element(arr):
   max = arr[0]
@@ -39,6 +83,9 @@ func largest_element(arr):
 
   return max
 ```
+
+In the worst case scenario we will have to iterate over every element in array and compare it to just 1 other element.  For an array of length 5, this is 5 operations.  For an array of length 6, it is 6.  For `n` it is `n`.  Thus the run-time of our whole algorithm is `O(n)`.
+
 
 ### Resources
 
