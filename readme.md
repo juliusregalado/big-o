@@ -171,6 +171,49 @@ Hm.
 Introducing a sexy new run-time: `O(log n)`.  It is even slimmer than `O(n)`.  It grows very, very slowly.
 
 
+### Two-sum
+
+Given an array `arr` and number `num` return a pair of numbers summing to to `num`.
+
+#### Algorithm 1
+
+```
+func two_sum(arr, num):
+  for_each n in arr:
+    if includes?(arr, num - n)
+      return true
+
+  return false
+
+
+func includes?(arr, elem):
+  for_each e in arr:
+    return true if e == elem
+
+  return false
+```
+
+#### Algorithm 2
+
+```
+func two_sum(arr, num):
+  set = build_set(arr)
+  for_each n in num:
+    if set[num - n]:
+      return true
+
+  return false
+
+
+func build_set(arr):
+  set = {}
+  for_each e in arr:
+    set[e] = true
+
+  return set
+```
+
+
 ## Common run-times
 
 Here are some common run-times from small (fast) to large (slow)
