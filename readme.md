@@ -8,7 +8,7 @@ From [interview cake](https://www.interviewcake.com/article/java/big-o-notation-
 
 > With big O notation we express the runtime in terms of—brace yourself—how quickly it grows relative to the input, as the input gets arbitrarily large.
 
-A Formal definition can be found [here](https://en.wikipedia.org/wiki/Big_O_notation#Formal_definition).  (This is very math-y)
+The formal definition is very math-y.  Let us instead practice understanding run-time with _examples_.
 
 ## Examples
 
