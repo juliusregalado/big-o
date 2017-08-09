@@ -114,7 +114,9 @@ For a word of length 5, how many anagrams are there? 5 choices for the first let
 
 This means we have `n!` iterations of our loop.  In each loop we have to check `is_pal?(w)`.  For a word of length `n`, we would have `n` characters to reverse so the run-time of `is_pal?` is `O(n)`.
 
-Thus, the over-all run-time is `O(n * n!)`.  Yuck.
+Thus, the over-all run-time is `O(n⋅n!)`.  Yuck.
+
+> We actually drop the first n because it is dwarfed by the `n!` leaving us with `O(n!)`
 
 #### Algorithm 2
 
@@ -128,13 +130,14 @@ Let us try to pseudocode an algorithm with a smaller run time.
 Assume we have a sorted array `sorted` of numbers.  Write a function `contains?(sorted, num)` to check if some `num` is in sorted.
 
 **Ex:** `contains?([2,3,5,7,11,13,17], 13)` is `true`
+
 **Ex:** `contains?([4,8,15,16,23,42], 21)` is `false`
 
 
 #### Algorithm 1
 ```
 func contains?(sorted, num):
-  for_each n in sorted:
+  forEach n in sorted:
     if n == num:
       return true
 
@@ -146,26 +149,47 @@ What is the run-time of this algorithm?  Can we do even better?
 #### Algorithm 2
 ```
 func contains?(sorted, num):
-  left = 0
-  right = sorted.length - 1
+  leftIdx = 0
+  rightIdx = sorted.length - 1
 
-  while(left <= right):
-    mid = (left + right) / 2
-    mid_elem = sorted[mid]
+  while(leftIdx <= rightIdx):
+    midIdx = (leftIdx + rightIdx) / 2
+    midElem = sorted[midIdx]
 
-    if num < mid_elem:
-      right = mid_elem
-    else_if num > mid_elem:
-      left = mid_elem
+    if num < midElem:
+      rightIdx = midIdx
+    else_if num > midElem:
+      leftIdx = midIdx
     else
       return true
 
   return false
 ```
 
-hm.
+Hm.
+
+Introducing a sexy new run-time: `O(log n)`.  It is even slimmer than `O(n)`.  It grows very, very slowly.
 
 
+## Common run-times
+
+Here are some common run-times from small (fast) to large (slow)
+
+**Polynomial**
+
+* `O(1)` - **constant**. Size of input does not matter. Can't do better than this
+* `O(log n)` - **logarithmic**. Very fast.  Just slower than constant time.  See [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+* `O(n)` - **linear**.  Complexity grows along with input size.
+* `O(n⋅log n)` - Best case scenario for [sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
+* `O(n²)` - **quadric**
+* `O(n³)` - **cubic**
+* `O(n⁴)`, `O(n⁵)`...
+
+**Super-polynomial**
+
+* `O(2ⁿ)` - **exponential**
+* `O(3ⁿ)`, `O(4ⁿ)`...
+* `O(n!)`- **factorial**
 
 ## Resources
 
