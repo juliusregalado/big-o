@@ -124,23 +124,25 @@ Let us try to pseudocode an algorithm with a smaller run time.
 
 
 
-### Resources
+## Resources
 
 * [Big O cheatsheet](http://bigocheatsheet.com/)
   - The complexity chart is a good visual to understand common run times
-  - Good information about run time of algorithms in data structures (interesting but you don't *need* to know this)
+  - Good information about run time of algorithms in data structures (don't *need* to know this)
   - Different run times of sorting algorithms is also interesting but you certainly don't need to know them all.  You probably *should* know that sorting can be done in `O(n⋅log(n))` time.
-
-
 * [A concise article on Big O](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
   - More example algorithms
   - Also discusses big O in terms of *space* complexity
+* [A refresher on logarithms](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/introduction-to-logarithms/a/intro-to-logarithms)
+  - A basic understanding of logarithms may give you a better grasp of `O(log(n))` and `O(n⋅log(n))`
 
+
+## **Advanced** Resources
 
 * [Formal definition of Big O](https://en.wikipedia.org/wiki/Big_O_notation#Formal_definition)
   - Very technical
   - You definitely don't need to understand or even know this definition.  Most people don't.  Understanding how Big O works is much more important
-
-
-* [A refresher on logarithms](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/introduction-to-logarithms/a/intro-to-logarithms)
-  - A basic understanding of logarithms may give you a better grasp of `O(log(n))` and `O(n⋅log(n))`
+* [P vs NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)
+  - One of the most famous and difficult problem in Mathematics and Computer Science
+  - Solve it and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)**
+  - Solve it and **literally [change the world](https://en.wikipedia.org/wiki/P_versus_NP_problem#Consequences_of_solution)**
