@@ -1,12 +1,19 @@
 # Time complexity and Big O
 
-## What is Big O?
+Time complexity is a measure how long an algorithm takes to run given the size of its inputs.  Big-O the most common notation for quantifying the complexity.
+
+![o](o.jpg)
+
+
+## Introducing Big-O
 
 From [interview cake](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
 
 > Big O notation is the language we use for articulating how long an algorithm takes to run. It's how we compare the efficiency of different approaches to a problem.
 
 > With big O notation we express the runtime in terms of—brace yourself—how quickly it grows relative to the input, as the input gets arbitrarily large.
+
+In other words, Big-O represents the (time) complexity of an algorithm as the input size grows.  With Big-O, we always consider **worst-case-scenario**.
 
 The formal definition is very math-y.  Let us instead practice understanding run-time with _examples_.
 
@@ -276,5 +283,5 @@ Here are some common run-times from small (fast) to large (slow)
   - You definitely don't need to understand or even know this definition.  Most people don't.  Understanding how Big O works is much more important
 * [P vs NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)
   - One of the most famous and difficult problem in Mathematics and Computer Science
-  - Solve it and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)**
+  - Solve it and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)** (probably more)
   - Solve it and **literally [change the world](https://en.wikipedia.org/wiki/P_versus_NP_problem#Consequences_of_solution)**
