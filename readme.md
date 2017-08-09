@@ -86,6 +86,43 @@ func largest_element(arr):
 
 In the worst case scenario we will have to iterate over every element in array and compare it to just 1 other element.  For an array of length 5, this is 5 operations.  For an array of length 6, it is 6.  For `n` it is `n`.  Thus the run-time of our whole algorithm is `O(n)`.
 
+### Possible palindrome
+
+Given a word `word`, determine if it is possible to re-arrange the characters such that they would form a palindrome.
+
+**Ex:** `poss_pal?("cracera")` is `true` because `"racecar"` is a palindrome.
+
+**Ex:** `poss_pal?("stacey")` is `false` because there is no anagram that would yield a palindrome.
+
+Let's assume we already have an `all_anagrams` function.
+
+#### Algorithm 1
+
+```
+func poss_pal?(word):
+  for w in all_anagrams(word):
+    if is_pal?(w):
+      return true
+
+  return false
+
+func is_pal?(word):
+  return word.reverse() == word
+```
+
+For a word of length 5, how many anagrams are there? 5 choices for the first letter, 4 for the second, three for the third... or **5 * 4 * 3 * 2 * 1 = 5!** anagrams.  If the word had length 6, there would be **6!** anagrams.  For a word of length `n`, there are `n!` anagrams.
+
+This means we have `n!` iterations of our loop.  In each loop we have to check `is_pal?(w)`.  For a word of length `n`, we would have `n` characters to reverse so the run-time of `is_pal?` is `O(n)`.
+
+Thus, the over-all run-time is `O(n * n!)`.  Yuck.
+
+#### Algorithm 2
+
+Hm.  Is there a way we can do better?  What do all anagrams have in common?
+
+Let us try to pseudocode an algorithm with a smaller run time.
+
+
 
 ### Resources
 
