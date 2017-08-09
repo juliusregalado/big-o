@@ -123,6 +123,49 @@ Hm.  Is there a way we can do better?  What do all anagrams have in common?
 Let us try to pseudocode an algorithm with a smaller run time.
 
 
+### Check for element in sorted list
+
+Assume we have a sorted array `sorted` of numbers.  Write a function `contains?(sorted, num)` to check if some `num` is in sorted.
+
+**Ex:** `contains?([2,3,5,7,11,13,17], 13)` is `true`
+**Ex:** `contains?([4,8,15,16,23,42], 21)` is `false`
+
+
+#### Algorithm 1
+```
+func contains?(sorted, num):
+  for_each n in sorted:
+    if n == num:
+      return true
+
+  return false
+```
+
+What is the run-time of this algorithm?  Can we do even better?
+
+#### Algorithm 2
+```
+func contains?(sorted, num):
+  left = 0
+  right = sorted.length - 1
+
+  while(left <= right):
+    mid = (left + right) / 2
+    mid_elem = sorted[mid]
+
+    if num < mid_elem:
+      right = mid_elem
+    else_if num > mid_elem:
+      left = mid_elem
+    else
+      return true
+
+  return false
+```
+
+hm.
+
+
 
 ## Resources
 
