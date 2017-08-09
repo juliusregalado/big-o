@@ -173,7 +173,7 @@ Introducing a sexy new run-time: `O(log n)`.  It is even slimmer than `O(n)`.  I
 
 ### Two-sum
 
-Given an array `arr` and number `num` return a pair of numbers summing to to `num`.
+Given an array `arr` and number `num`, return a pair of numbers summing to `num`.
 
 #### Algorithm 1
 
@@ -192,6 +192,8 @@ func includes?(arr, elem):
 
   return false
 ```
+
+What do we think the run time is?  Can we do better?
 
 #### Algorithm 2
 
@@ -213,6 +215,26 @@ func build_set(arr):
   return set
 ```
 
+What is the run-time of this algorithm?
+
+## Dropping the insignificant stuff
+
+With Big-O, we drop constants and anything smaller.
+
+Examples:
+
+* `O(2n)` => `O(n)`
+* `O(5n² + 3n + 1)` => `O(n²)`
+* `O(n! + 100n²)` => `O(n!)`
+
+## Things to remember
+
+* Big-O can also be used to represent _space_-complexity.
+  - This is how much extra memory, not time, is needed to run the algorithm
+* An algorithm with a smaller run-time is not always "better"
+  - Other things to consider are code complexity, space-complexity, etc
+* Two algorithms can have the same run-time with one being a lot faster
+  - For example, one algorithm may require `10n` operations while another requires only `2n` of the same operations.  The latter is faster but both are `O(n)`
 
 ## Common run-times
 
