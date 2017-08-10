@@ -204,7 +204,7 @@ func contains?(sorted, num):
 
 Hm.
 
-Introducing a sexy new run-time: `O(log n)`.  It is even slimmer than `O(n)`.  It grows very, very slowly.
+Introducing a sexy new run-time: `O(log n)`.  It is even slimmer than `O(n)`.  It grows very, very slowly.  (The base of the log does not matter as these all differ by a constant).
 
 > This is a famous algorithm called [binary search](http://www.geeksforgeeks.org/binary-search/).  It can be adapted to return the _index_ of the element searched for.  It can also be done with recursion!  (Check out the Python solutions for both)
 
