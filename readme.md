@@ -71,6 +71,8 @@ We call this `linear` or `O(n)` (where `n` is the size of our object).  With an 
 
 > So which algorithm is "better"?  Which has a smaller run-time?
 
+---
+
 ### Find the largest element in a list
 
 Create a function `largest_element` that take an array `arr` and returns the largest element.
@@ -117,6 +119,8 @@ func largest_element(arr):
 
 In the worst case scenario we will have to iterate over every element in array and compare it to just 1 other element.  For an array of length 5, this is 5 operations.  For an array of length 6, it is 6.  For `n` it is `n`.  Thus the run-time of our whole algorithm is `O(n)`.
 
+---
+
 ### Possible palindrome
 
 Given a word `word`, determine if it is possible to re-arrange the characters such that they would form a palindrome.
@@ -155,6 +159,7 @@ Hm.  Is there a way we can do better?  What do all anagrams have in common?
 
 Let us try to pseudocode an algorithm with a smaller run time.
 
+---
 
 ### Check for element in sorted list
 
@@ -201,6 +206,7 @@ Hm.
 
 Introducing a sexy new run-time: `O(log n)`.  It is even slimmer than `O(n)`.  It grows very, very slowly.
 
+---
 
 ### Two-sum
 
@@ -250,13 +256,17 @@ What is the run-time of this algorithm?
 
 ## Dropping the insignificant stuff
 
-With Big-O, we drop constants and anything smaller.
+With Big-O, we drop constants and anything smaller than the leading term.
 
 Examples:
 
 * `O(2n)` => `O(n)`
 * `O(5n² + 3n + 1)` => `O(n²)`
 * `O(n! + 100n²)` => `O(n!)`
+
+_Why?_ We only care about a general idea of how this grows over time as our input gets very large.  When the input is large enough, the constants/other terms just don't mean as much in comparison.
+
+> There is a mathematical justification for dropping these.  Look at the formal definition if you are really interested.
 
 ## Things to remember
 
