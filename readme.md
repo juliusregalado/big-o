@@ -301,6 +301,7 @@ Here are some common run-times from small (fast) to large (slow)
 
 ## Resources
 
+* [Math refresher](https://git.generalassemb.ly/gist/ari/4ae9e8b95ec160192c878d9d33f6186d)
 * [Big O cheatsheet](http://bigocheatsheet.com/)
   - The complexity chart is a good visual to understand common run times
   - Good information about run time of algorithms in data structures (don't *need* to know this)
@@ -309,7 +310,6 @@ Here are some common run-times from small (fast) to large (slow)
   - More example algorithms
   - Also discusses big O in terms of *space* complexity
 * [Intro to Big-O video](https://www.youtube.com/watch?v=v4cd1O4zkGw)
-* [Math refresher](https://git.generalassemb.ly/gist/ari/4ae9e8b95ec160192c878d9d33f6186d)
 
 
 ## **Advanced** Resources
