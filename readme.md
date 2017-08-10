@@ -301,6 +301,8 @@ Here are some common run-times from small (fast) to large (slow)
 
 ## Resources
 
+Things to make you less confused.
+
 * [Math refresher](https://git.generalassemb.ly/gist/ari/4ae9e8b95ec160192c878d9d33f6186d)
 * [Big O cheatsheet](http://bigocheatsheet.com/)
   - The complexity chart is a good visual to understand common run times
@@ -313,6 +315,8 @@ Here are some common run-times from small (fast) to large (slow)
 
 
 ## **Advanced** Resources
+
+Things to make you more confused.
 
 * [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
   - This book will help you get a job. _Bigly_. This is a _fabulous_ resource for practicing these problems.  Just fabulous.  You look at other books - they're terrible.  Just terrible. They're a disaster. Total disaster. They're _losers_. This is the number one book. It's terrific. Everyone agrees.
