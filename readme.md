@@ -314,6 +314,8 @@ Here are some common run-times from small (fast) to large (slow)
 
 ## **Advanced** Resources
 
+* [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
+  - This book will help you get a job. _Bigly_. This is a _fabulous_ resource for practicing these problems.  Just fabulous.  You look at other books - they're terrible.  Just terrible. They're a disaster. Total disaster. They're _losers_. This is the number one book. It's terrific. Everyone agrees.
 * [Formal definition of Big O](https://en.wikipedia.org/wiki/Big_O_notation#Formal_definition)
   - Very technical
   - You definitely don't need to understand or even know this definition.  Most people don't.  Understanding how Big O works is much more important
