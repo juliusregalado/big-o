@@ -47,7 +47,7 @@ The formal definition is very math-y.  Let us instead practice understanding run
 
 Given an object `obj`, a key `key`, and a value `val`, check to see if there is a key in `obj` with value `val`.
 
-#### Algorithm 1:
+#### Algorithm 1
 ```
 func check_pair(obj, key, val):
   return obj.has_key?(key) && obj[key] == val
@@ -55,7 +55,7 @@ func check_pair(obj, key, val):
 
 No matter how large our `obj` is, it takes the same amount of time to check to see if it has a key and check that 2 values match.  (We accept this as given.)  Therefore, this is algorithm runs in `constant time`.  In Big-O notation this is `O(1)`.
 
-#### Algorithm 2:
+#### Algorithm 2
 
 ```
 func check_pair(obj, key, val):
@@ -77,7 +77,7 @@ We call this `linear` or `O(n)` (where `n` is the size of our object).  With an 
 
 Create a function `largest_element` that take an array `arr` and returns the largest element.
 
-#### Algorithm 1:
+#### Algorithm 1
 ```
 func largest_element(arr):
   for_each_element x in arr:
@@ -105,7 +105,7 @@ If `arr` is of length **7**, we will have to do **7 * 7 = 7² = 49** operations.
 
 We call this `O(n²)`.
 
-#### Algorithm 2:
+#### Algorithm 2
 ```
 func largest_element(arr):
   max = arr[0]
@@ -151,7 +151,7 @@ This means we have `n!` iterations of our loop.  In each loop we have to check `
 
 Thus, the over-all run-time is `O(n⋅n!)`.  Yuck.
 
-> We actually drop the first n because it is dwarfed by the `n!` leaving us with `O(n!)`
+> We actually drop the first `n` because it is dwarfed by the `n!` leaving us with `O(n!)`
 
 #### Algorithm 2
 
