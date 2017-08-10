@@ -327,8 +327,7 @@ Things to make you more confused.
 * [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
   - This book will help you get a job. _Bigly_. This is a _fabulous_ resource for practicing these problems.  Just fabulous.  You look at other books - they're terrible.  Just terrible. They're a disaster. Total disaster. They're _losers_. This is the number one book. It's terrific. Everyone agrees.
 * [Formal definition of Big O](https://en.wikipedia.org/wiki/Big_O_notation#Formal_definition)
-  - Very technical
-  - You definitely don't need to understand or even know this definition.  Most people don't.  Understanding how Big O works is much more important
+  - This is very technical and you do not need to know it.  Most developers don't.
 * [P vs NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)
   - One of the most famous and difficult problem in Mathematics and Computer Science
   - Solve it and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)** (probably more)
