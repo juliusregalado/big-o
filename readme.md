@@ -308,8 +308,8 @@ Here are some common run-times from small (fast) to large (slow)
 * [A concise article on Big O](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
   - More example algorithms
   - Also discusses big O in terms of *space* complexity
-* [A refresher on logarithms](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/introduction-to-logarithms/a/intro-to-logarithms)
-  - A basic understanding of logarithms may give you a better grasp of `O(log(n))` and `O(n⋅log(n))`
+* [Intro to Big-O video](https://www.youtube.com/watch?v=v4cd1O4zkGw)
+* [Math refresher](https://git.generalassemb.ly/gist/ari/4ae9e8b95ec160192c878d9d33f6186d)
 
 
 ## **Advanced** Resources
