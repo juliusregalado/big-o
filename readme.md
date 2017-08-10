@@ -1,4 +1,28 @@
+---
+title: Time complexity and Big O
+type: lesson
+duration: "2:30"
+creator:
+    name: Ari Brenner
+    city: NY
+competencies: Programming
+---
+
 # Time complexity and Big O
+
+### Objectives
+*After this lesson, students will be able to:*
+- Describe the concept of time and space-complexity
+- Compare/contrast [common run-times](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#common-run-times) in Big-O notation
+- Recognize patterns between algorithms and their run-times
+
+### Preparation
+*Before this lesson, students should already be able to:*
+- Be comfortable reading and writing pseudocode
+- Have practice with iterating over arrays and objects
+- Have a willingness to touch some mathematics!
+
+## What is time complexity?
 
 Time complexity is a measure how long an algorithm takes to run given the size of its inputs.  Big-O the most common notation for quantifying the complexity.
 
@@ -285,3 +309,9 @@ Here are some common run-times from small (fast) to large (slow)
   - One of the most famous and difficult problem in Mathematics and Computer Science
   - Solve it and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)** (probably more)
   - Solve it and **literally [change the world](https://en.wikipedia.org/wiki/P_versus_NP_problem#Consequences_of_solution)**
+
+
+## Conclusion
+- Why do we care about time and space complexity an algorithm?
+- Why do we use Big-O notation?  What does it tell us?
+- How can we read an algorithm and boil it down to it's run-time in Big-O?
