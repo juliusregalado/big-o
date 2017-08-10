@@ -309,18 +309,17 @@ Here are some common run-times from small (fast) to large (slow)
 Things to make you less confused.
 
 * [Math refresher](https://git.generalassemb.ly/gist/ari/4ae9e8b95ec160192c878d9d33f6186d)
-* [Big O cheatsheet](http://bigocheatsheet.com/)
-  - The complexity chart is a good visual to understand common run times
-  - Good information about run time of algorithms in data structures (don't *need* to know this)
-  - Different run times of sorting algorithms is also interesting but you certainly don't need to know them all.  You probably *should* know that sorting can be done in `O(n⋅log(n))` time.
 * [Big O basics](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
   - More example algorithms
   - Also discusses Big O in terms of *space* complexity
 * [Beginner's guide to Big O](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
   - **Great** explanation and examples of common run-times
+* [Big O cheatsheet](http://bigocheatsheet.com/)
+  - The complexity chart is a good visual to understand common run times
+  - Good information about run time of algorithms in data structures (don't *need* to know this)
+  - Different run times of sorting algorithms is also interesting but you certainly don't need to know them all.  You probably *should* know that sorting can be done in `O(n⋅log(n))` time.
 * [Intro to Big-O video](https://www.youtube.com/watch?v=v4cd1O4zkGw)
-
-
+  - From the author of [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/) (see below)
 ## **Advanced** Resources
 
 Things to make you more confused.
