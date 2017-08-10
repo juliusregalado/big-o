@@ -287,17 +287,17 @@ Here are some common run-times from small (fast) to large (slow)
 
 * `O(1)` - **constant**. Size of input does not matter. Can't do better than this
 * `O(log n)` - **logarithmic**. Very fast.  Just slower than constant time.  See [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
-* `O(n)` - **linear**.  Complexity grows along with input size.
+* `O(n)` - **linear**.  This is often one or more isolated loops.
 * `O(n⋅log n)` - Best case scenario for [sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
-* `O(n²)` - **quadric**
-* `O(n³)` - **cubic**
-* `O(n⁴)`, `O(n⁵)`...
+* `O(n²)` - **quadric (polynomial)**.  This is often a loop within a loop.
+* `O(n³)` - **cubic (polynomial)**. This is often a loop within a loop within a loop.
+* `O(n⁴)`, `O(n⁵)`... **polynomial**
 
 **Super-polynomial**
 
-* `O(2ⁿ)` - **exponential**
-* `O(3ⁿ)`, `O(4ⁿ)`...
-* `O(n!)`- **factorial**
+* `O(2ⁿ)` - **exponential**.  The number of subsets of a set of size `n`
+* `O(3ⁿ)`, `O(4ⁿ)`... **exponential**
+* `O(n!)`- **factorial**.  The number of ways you can permute something of size `n`
 
 ## Conclusion
 - Why do we care about time and space complexity an algorithm?
