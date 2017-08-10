@@ -281,7 +281,7 @@ _Why?_ We only care about a general idea of how this grows over time as our inpu
 
 ## Common run-times
 
-Here are some common run-times from small (fast) to large (slow)
+Here are some common run-times from **small/fast/good** to **large/slow/bad**
 
 **Polynomial**
 
