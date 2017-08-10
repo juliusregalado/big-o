@@ -313,9 +313,11 @@ Things to make you less confused.
   - The complexity chart is a good visual to understand common run times
   - Good information about run time of algorithms in data structures (don't *need* to know this)
   - Different run times of sorting algorithms is also interesting but you certainly don't need to know them all.  You probably *should* know that sorting can be done in `O(n⋅log(n))` time.
-* [A concise article on Big O](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
+* [Big O basics](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
   - More example algorithms
-  - Also discusses big O in terms of *space* complexity
+  - Also discusses Big O in terms of *space* complexity
+* [Beginner's guide to Big O](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
+  - **Great** explanation and examples of common run-times
 * [Intro to Big-O video](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
 
