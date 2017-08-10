@@ -17,10 +17,10 @@ competencies: Programming
 - Recognize patterns between algorithms and their run-times
 
 ### Preparation
-*Before this lesson, students should already be able to:*
+*Before this lesson, students should:*
 - Be comfortable reading and writing pseudocode
 - Have practice with iterating over arrays and objects
-- Have a willingness to touch some mathematics!
+- Have a willingness to touch [some mathematics](https://git.generalassemb.ly/gist/ari/4ae9e8b95ec160192c878d9d33f6186d)!
 
 ## What is time complexity?
 
