@@ -299,6 +299,11 @@ Here are some common run-times from small (fast) to large (slow)
 * `O(3ⁿ)`, `O(4ⁿ)`...
 * `O(n!)`- **factorial**
 
+## Conclusion
+- Why do we care about time and space complexity an algorithm?
+- Why do we use Big-O notation?  What does it tell us?
+- How can we read an algorithm and boil it down to it's run-time in Big-O?
+
 ## Resources
 
 Things to make you less confused.
@@ -327,9 +332,3 @@ Things to make you more confused.
   - One of the most famous and difficult problem in Mathematics and Computer Science
   - Solve it and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)** (probably more)
   - Solve it and **literally [change the world](https://en.wikipedia.org/wiki/P_versus_NP_problem#Consequences_of_solution)**
-
-
-## Conclusion
-- Why do we care about time and space complexity an algorithm?
-- Why do we use Big-O notation?  What does it tell us?
-- How can we read an algorithm and boil it down to it's run-time in Big-O?
