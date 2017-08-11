@@ -260,20 +260,6 @@ What is the run-time of this algorithm?
 
 ![oprah](imgs/oprah.png)
 
-## Dropping the insignificant stuff
-
-With Big-O, we drop constants and anything smaller than the leading term.
-
-Examples:
-
-* `O(2n)` => `O(n)`
-* `O(5n² + 3n + 1)` => `O(n²)`
-* `O(n! + 100n²)` => `O(n!)`
-
-_Why?_ We only care about a general idea of how this grows over time as our input gets very large.  When the input is large enough, the constants/other terms just don't mean as much in comparison.
-
-> There is a mathematical justification for dropping these.  Look at the formal definition if you are really interested.
-
 ## Common run-times
 
 Here are some common run-times from **small/fast/good** to **large/slow/bad**
@@ -294,6 +280,19 @@ Here are some common run-times from **small/fast/good** to **large/slow/bad**
 * `O(3ⁿ)`, `O(4ⁿ)`... **exponential**
 * `O(n!)`- **factorial**.  The number of ways you can permute something of size `n`
 
+## Dropping the insignificant stuff
+
+With Big-O, we drop constants and anything smaller than the leading term.
+
+Examples:
+
+* `O(2n)` => `O(n)`
+* `O(5n² + 3n + 1)` => `O(n²)`
+* `O(n! + 100n²)` => `O(n!)`
+
+_Why?_ We only care about a general idea of how this grows over time as our input gets very large.  When the input is large enough, the constants/other terms just don't mean as much in comparison.
+
+> There is a mathematical justification for dropping these.  Look at the formal definition if you are really interested.
 
 ## Things to remember
 
