@@ -356,3 +356,7 @@ Things to make you more confused.
   - Simply find a single poly-time algorithm for any [NP-complete problem](https://en.wikipedia.org/wiki/NP-completeness#NP-complete_problems)
   - Find one and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)** (probably more)
   - Find one and **literally [change the world](https://en.wikipedia.org/wiki/P_versus_NP_problem#Consequences_of_solution)**
+
+---
+
+![the-big-o](imgs/the-big-o.png)
