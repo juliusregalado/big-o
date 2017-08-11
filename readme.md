@@ -270,15 +270,6 @@ _Why?_ We only care about a general idea of how this grows over time as our inpu
 
 > There is a mathematical justification for dropping these.  Look at the formal definition if you are really interested.
 
-## Things to remember
-
-* Big-O can also be used to represent _space_-complexity.
-  - This is how much extra memory, not time, is needed to run the algorithm
-* An algorithm with a smaller run-time is not always "better"
-  - Other things to consider are code complexity, space-complexity, etc
-* Two algorithms can have the same run-time with one being a lot faster
-  - For example, one algorithm may require `10n` operations while another requires only `2n` of the same operations.  The latter is faster but both are `O(n)`
-
 ## Common run-times
 
 Here are some common run-times from **small/fast/good** to **large/slow/bad**
@@ -298,6 +289,16 @@ Here are some common run-times from **small/fast/good** to **large/slow/bad**
 * `O(2ⁿ)` - **exponential**.  The number of subsets of a set of size `n`
 * `O(3ⁿ)`, `O(4ⁿ)`... **exponential**
 * `O(n!)`- **factorial**.  The number of ways you can permute something of size `n`
+
+
+## Things to remember
+
+* Big-O can also be used to represent _space_-complexity.
+  - This is how much extra memory, not time, is needed to run the algorithm
+* An algorithm with a smaller run-time is not always "better"
+  - Other things to consider are code complexity, space-complexity, etc
+* Two algorithms can have the same run-time with one being a lot faster
+  - For example, one algorithm may require `10n` operations while another requires only `2n` of the same operations.  The latter is faster but both are `O(n)`
 
 ## Conclusion
 - Why do we care about time and space complexity an algorithm?
