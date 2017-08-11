@@ -22,6 +22,21 @@ competencies: Programming
 - Have practice with iterating over arrays and objects
 - Have a willingness to touch [some mathematics](https://git.generalassemb.ly/gist/ari/4ae9e8b95ec160192c878d9d33f6186d)!
 
+## Why are we learning this?
+
+Many reasons.  Here are the big ones
+
+* For **yourself**
+  - Be able to quantify and improve your algorithms.
+  - You will better understand code (include your own)
+  - You will better be able to talk about your code.
+* For **interviews**
+  - If you whiteboard during an interview you probably be asked what the run-time of your algorithm is.
+  - If not, tell them anyway!
+* For the **money** and for **the world**
+  - Learn this stuff and you could [win a million dollars and change the world over night](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#super-advanced-resources)
+  - (This is a stretch-goal)
+
 ## What is time complexity?
 
 Time complexity is a measure how long an algorithm takes to run given the size of its inputs.  Big-O the most common notation for quantifying the complexity.
@@ -324,6 +339,7 @@ Things to make you less confused.
   - Different run times of sorting algorithms is also interesting but you certainly don't need to know them all.  You probably *should* know that sorting can be done in `O(n⋅log(n))` time.
 * [Intro to Big-O video](https://www.youtube.com/watch?v=v4cd1O4zkGw)
   - From the author of [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/) (see below)
+
 ## **Advanced** Resources
 
 Things to make you more confused.
@@ -332,7 +348,11 @@ Things to make you more confused.
   - This book will help you get a job. _Bigly_. This is a _fabulous_ resource for practicing these problems.  Just fabulous.  You look at other books - they're terrible.  Just terrible. They're a disaster. Total disaster. They're _losers_. This is the number one book. It's terrific. Everyone agrees.
 * [Formal definition of Big O](https://en.wikipedia.org/wiki/Big_O_notation#Formal_definition)
   - This is very technical and you do not need to know it.  Most developers don't.
+
+## **Super Advanced** Resources
+
 * [P vs NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)
-  - One of the most famous and difficult problem in Mathematics and Computer Science
-  - Solve it and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)** (probably more)
-  - Solve it and **literally [change the world](https://en.wikipedia.org/wiki/P_versus_NP_problem#Consequences_of_solution)**
+  - One of the most famous problems in Mathematics and Computer Science
+  - Simply find a single poly-time algorithm for any [NP-complete problem](https://en.wikipedia.org/wiki/NP-completeness#NP-complete_problems)
+  - Find one and **literally [win 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)** (probably more)
+  - Find one and **literally [change the world](https://en.wikipedia.org/wiki/P_versus_NP_problem#Consequences_of_solution)**
