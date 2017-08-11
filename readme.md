@@ -256,6 +256,8 @@ func build_set(arr):
 
 What is the run-time of this algorithm?
 
+---
+
 ![oprah](imgs/oprah.png)
 
 ## Dropping the insignificant stuff
