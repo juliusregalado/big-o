@@ -31,7 +31,7 @@ For each problem:
 
 `perms(size)` gives all possible arrays of length `size` containing the numbers 0 and 1
 
-**ex**: `perms(0)` => `[]`
+**ex**: `perms(0)` => `[[]]`
 
 **ex**: `perms(1)` => `[[0], [1]]`
 
