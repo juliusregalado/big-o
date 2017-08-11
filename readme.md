@@ -256,6 +256,8 @@ func build_set(arr):
 
 What is the run-time of this algorithm?
 
+![oprah](oprah.png)
+
 ## Dropping the insignificant stuff
 
 With Big-O, we drop constants and anything smaller than the leading term.
