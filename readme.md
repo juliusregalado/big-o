@@ -26,7 +26,7 @@ competencies: Programming
 
 Time complexity is a measure how long an algorithm takes to run given the size of its inputs.  Big-O the most common notation for quantifying the complexity.
 
-![o](o.jpg)
+![o](imgs/o.jpg)
 
 
 ## Introducing Big-O
@@ -256,7 +256,7 @@ func build_set(arr):
 
 What is the run-time of this algorithm?
 
-![oprah](oprah.png)
+![oprah](imgs/oprah.png)
 
 ## Dropping the insignificant stuff
 
