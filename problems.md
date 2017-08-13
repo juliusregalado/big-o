@@ -56,3 +56,16 @@ What about `four_sum(arr, num)`? `five_sum(arr, num)`? `k_sum(arr, num, k)`?
 
 
 [two-sum]: https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#two-sum
+
+
+### Subset-sum
+
+Given an array of numbers, find any (non-empty) subset that sum to 0
+
+**ex**: `subset_sum([-13, -7, -2, 1, 3, 8])` => `[-7, -2, 1, 8]` _(-7 + -2 + 1 + 8 = 0)_
+
+**ex**: `subset_sum([-9, -4, 2, 3, 5, 12])` => `zilch` _(no subset sums to 0)_
+
+Pretty straight-forward right?  Well, **find a poly-time solution and win a million dollars!!**
+
+> Seriously. Solving this or any [NP-complete problem](https://en.wikipedia.org/wiki/NP-completeness#NP-complete_problems) in poly-time proves the [P vs NP problem](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#super-advanced-resources) and [earns you 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)
