@@ -254,7 +254,7 @@ What do we think the run time is?  Can we do better?
 ```
 func two_sum(arr, num):
   set = build_set(arr)
-  for_each n in num:
+  for_each n in arr:
     if set[num - n]:
       return true
 
