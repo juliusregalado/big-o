@@ -69,3 +69,16 @@ Given an array of numbers, find any (non-empty) subset that sum to 0
 Pretty straight-forward right?  Well, **find a poly-time solution and win a million dollars!!**
 
 > Seriously. Solving this or any [NP-complete problem](https://en.wikipedia.org/wiki/NP-completeness#NP-complete_problems) in poly-time proves the [P vs NP problem](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#super-advanced-resources) and [earns you 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)
+
+
+### Subsets
+
+return all subsets of an array
+
+**ex**:
+```javascript
+subsets([]);        // => [[]]
+subsets([1]);       // => [[], [1]]
+subsets([1, 2]);    // => [[], [1], [2], [1, 2]]
+subsets([1, 2, 3]); // => [[], [1], [2], [1, 2], [3], [2, 3], [1, 2, 3]]
+```
