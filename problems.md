@@ -39,6 +39,7 @@ For each problem:
 
 **ex**: `perms(3)` => `[[0, 0, 0], [0, 0, 1], [0, 1, 0], [0, 1, 1], [1, 0, 0], [1, 0, 1], [1, 1, 0], [1, 1, 1]]`
 
+[JS solution](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O/blob/master/js-solutions/perms.js)
 
 ### Three-sum
 
@@ -54,6 +55,7 @@ Yes the name is funny but this is a real problem
 
 What about `four_sum(arr, num)`? `five_sum(arr, num)`? `k_sum(arr, num, k)`?
 
+[JS solution](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O/blob/master/js-solutions/k-sum.js)
 
 ### Subset-sum
 
@@ -67,6 +69,7 @@ Pretty straight-forward right?  Well, **find a poly-time solution and win a mill
 
 > Seriously. Solving this or any [NP-complete problem](https://en.wikipedia.org/wiki/NP-completeness#NP-complete_problems) in poly-time proves the [P vs NP problem](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#super-advanced-resources) and [earns you 1 million dollars](https://en.wikipedia.org/wiki/Millennium_Prize_Problems)
 
+[JS solution](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O/blob/master/js-solutions/subset-sum.js)
 
 ### Subsets
 
@@ -80,6 +83,7 @@ subsets([1, 2]);    // => [[], [1], [2], [1, 2]]
 subsets([1, 2, 3]); // => [[], [1], [2], [1, 2], [3], [2, 3], [1, 2, 3]]
 ```
 
+[JS solution](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O/blob/master/js-solutions/subsets.js)
 
 
 [two-sum]: https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#two-sum
