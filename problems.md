@@ -55,9 +55,6 @@ Yes the name is funny but this is a real problem
 What about `four_sum(arr, num)`? `five_sum(arr, num)`? `k_sum(arr, num, k)`?
 
 
-[two-sum]: https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#two-sum
-
-
 ### Subset-sum
 
 Given an array of numbers, find any (non-empty) subset that sum to 0
@@ -82,3 +79,7 @@ subsets([1]);       // => [[], [1]]
 subsets([1, 2]);    // => [[], [1], [2], [1, 2]]
 subsets([1, 2, 3]); // => [[], [1], [2], [1, 2], [3], [2, 3], [1, 2, 3]]
 ```
+
+
+
+[two-sum]: https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#two-sum
