@@ -13,7 +13,7 @@ competencies: Programming
 ### Objectives
 *After this lesson, students will be able to:*
 - Describe the concept of time and space-complexity
-- Compare/contrast [common run-times](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#common-run-times) in Big-O notation
+- Compare/contrast [common run-times](#common-run-times) in Big-O notation
 - Recognize patterns between algorithms and their run-times
 
 ### Preparation
@@ -34,7 +34,7 @@ Many reasons.  Here are the big ones
   - If you whiteboard during an interview you probably be asked what the run-time of your algorithm is.
   - If not, tell them anyway!
 * For the **money** and for **the world**
-  - Learn this stuff and you could [win a million dollars and change the world over night](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U03_D05_ES6-Big-O#super-advanced-resources)
+  - Learn this stuff and you could [win a million dollars and change the world over night](#super-advanced-resources)
   - (This is a stretch-goal)
 
 ## What is time complexity?
