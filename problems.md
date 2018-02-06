@@ -47,10 +47,6 @@ Yes the name is funny but this is a real problem
 
 `three_sum(arr, num)` is similar to [Two-sum][two-sum] but with a set of **three** numbers in `arr` that sum to some given input `num`.
 
-> "Big-O !! Three-sum !! hahaha ROFL do you get it ??"
-
-> Yes, stacey I get it. Please calm down and do your work.
-
 ### K-sum
 
 What about `four_sum(arr, num)`? `five_sum(arr, num)`? `k_sum(arr, num, k)`?

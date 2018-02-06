@@ -174,6 +174,8 @@ Hm.  Is there a way we can do better?  What do all anagrams have in common?
 
 Let us try to pseudocode an algorithm with a smaller run time.
 
+> Hint: we can do this in `O(n)` time - **a lot** than `O(n!)`
+
 ---
 
 ### Check for element in sorted list
@@ -308,6 +310,10 @@ Examples:
 _Why?_ We only care about a general idea of how this grows over time as our input gets very large.  When the input is large enough, the constants/other terms just don't mean as much in comparison.
 
 > There is a mathematical justification for dropping these.  Look at the formal definition if you are really interested.
+
+## Lab
+
+Let's take a look at `problems.md`. Spend some time thinking about each one.  You may look at some example solutions in `/js-solutions` after the lecture today.
 
 ## Things to remember
 
