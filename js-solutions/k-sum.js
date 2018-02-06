@@ -1,16 +1,30 @@
+// two-sum
+Array.prototype.twoSum = function (sum) {
+  var elem, diff;
+  var set = this.toSet();
+
+  for(var i = 0; i < this.length; i++) {
+    elem = this[i];
+    diff = sum - elem;
+    if (set[diff]) {
+      return [elem, diff]
+    }
+  }
+
+  return null;
+};
+
 // generalized two-sum, three-sum, four-sum, etc
 Array.prototype.kSum = function (sum, k) {
   var i, prev, elem;
-  var set = this.toSet(); // defined in helpers.js
 
-  if(k === 1) {
-    return set[sum] ? [sum] : null;
+  if(k === 2) {
+    return this.twoSum(sum);
   }
 
   for(i = 0; i < this.length; i ++) {
     elem = this[i];
-    subArray = this.withoutIndex(i); // remove element from array to not count twice. (defined in helpers.js)
-    prev = subArray.kSum(sum - elem, k - 1);
+    prev = this.kSum(sum - elem, k - 1);
     if (prev) {
       return [elem].concat(prev);
     }
